@@ -1855,7 +1855,8 @@
 			}
 
 		.box .content {
-			padding: 3rem;
+			padding: 1rem;
+			background-color: #f2f2f2;
 		}
 
 		.box > :last-child,
@@ -2901,12 +2902,16 @@
 			color: #a6a6a6;
 		}
 
+			.wrapper.style2 p {
+			background-color: #f2f2f2;
+			font-family: "Poppis", sans-serif;
+			font-weight: 300;
+			font-size: 12px;
+			color: #080808;
+		}
+
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
 				color: #000;
-			}
-
-			.wrapper.style2 a {
-				color: #8a4680;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -2982,7 +2987,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #8a4680;
+					background-color: #1a1919;
 					color: #ffffff !important;
 				}
 
@@ -2991,7 +2996,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #9b4f90;
+						background-color: #1a1919;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -2999,7 +3004,7 @@
 					.wrapper.style2 input[type="button"].special:active,
 					.wrapper.style2 button.special:active,
 					.wrapper.style2 .button.special:active {
-						background-color: #793d70;
+						background-color: #1a1919;
 					}
 
 			.wrapper.style2 label {
@@ -3020,8 +3025,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #8a4680;
-					box-shadow: 0 0 0 1px #8a4680;
+					border-color: #1a1919;
+					box-shadow: 0 0 0 1px #1a1919;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3077,7 +3082,7 @@
 			}
 
 			.wrapper.style2 header p {
-				color: #999999;
+				color: #db001a;
 			}
 
 			.wrapper.style2 table tbody tr {
@@ -3107,7 +3112,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/capa4.JPG);
+			background-image: url(../../images/capa.JPG);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -3598,6 +3603,7 @@
 
 			.gallery .image.fit {
 				margin: 0;
+				
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4006,7 +4012,7 @@
 /* Banner */
 
 	.banner {
-		background-color: #8a4680;
+		background-color: #ffffff;
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
