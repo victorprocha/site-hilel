@@ -3741,13 +3741,12 @@
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: 50%;
+			transform: translateY(-50%);
 		}
 
-			#header > .logo a {
-				font-size: 1.25em;
-				color: #FFF;
-				text-decoration: none;
+			#header > .logo img {
+				vertical-align: middle; 
 			}
 
 				#header > .logo a:hover {
